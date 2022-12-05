@@ -93,8 +93,6 @@ const Experience = () => {
                     <h5>06/2011 - 12/2014</h5>
                     <div className="experience__content">
                         <article className='experience__details'>
-                        </article>
-                        <article className='experience__details'>
                             <SiInformatica className='experience__details-icon' />
                             <div>
                                 <h4>Engineering</h4>
