@@ -2,18 +2,24 @@ import React from "react";
 import './index.css'
 import Header from './components/header/Header'
 import Skills from "./components/skills/Skills";
-import './components/portfolio/Portfolio'
-import './components/experience/Experience'
-import './components/about/About'
-import './components/hobbies/Hobbies'
-import './components/nav/Nav'
-import './components/footer/Footer'
+import Nav from "./components/nav/Nav";
+import Experience from "./components/experience/Experience";
+import Portfolio from "./components/portfolio/Portfolio";
+import About from "./components/about/About"
+import Contact from "./components/contact/Contact"
+import Footer from "./components/footer/Footer";
 
 const App = () => {
     return(
         <>
             <Header />
+            <Nav />
             <Skills />
+            <Experience />
+            <Portfolio />
+            <About />
+            <Contact />
+            <Footer />
         </>
     )
 }
