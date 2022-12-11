@@ -62,7 +62,7 @@ const Skills = () => {
                     <ul className="skills__list">
                         <li>
                             <DiSpark className="skills__list-icon" />
-                            <p>Spark Framework</p>
+                            <p>Spark Engine</p>
                         </li>
                         <li>
                             <AiTwotoneFile className="skills__list-icon" />
@@ -100,7 +100,7 @@ const Skills = () => {
                 </article>
                 <article className="skills">
                     <div className="skills__head">
-                        <h3>Cloud Ecosystem & Library & Frameworks</h3>
+                        <h3>Cloud Ecosystem, Library & Frameworks</h3>
                     </div>
 
                     <ul className="skills__list">

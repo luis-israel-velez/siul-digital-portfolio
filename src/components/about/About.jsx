@@ -1,6 +1,6 @@
 import React from "react";
 import './about.css'
-import ME from "../../assets/temp.jpg"
+import ME from "../../assets/family.jpg"
 import {FaUniversity, FaHandshake} from "react-icons/fa"
 import {DiGoogleAnalytics} from "react-icons/di"
 
@@ -35,7 +35,7 @@ const About = () => {
                             <small>25+ Partnerships</small>
                         </article>
                     </div>
-                    <p>Passionate leader & engineer with a proven record of building highly productive and result oriented tech teams by interviewing and identifying highly motivated team members while mentoring and expanding the current team talent. Successfully executed legacy to cloud global migration projects, as well as building new applications from the beginning, with an emphasis on improving performance while minimizing cost. Solutions were built to be highly scalable and resilient to adapt to ever growing business needs.</p>
+                    <p>Passionate leader & engineer with a proven record of building highly productive and result oriented tech teams by interviewing and identifying highly motivated people while mentoring and expanding the current team talent. Successfully executed legacy to cloud global migration projects, as well as building new applications from the beginning, with an emphasis on improving performance while minimizing cost. Solutions were built to be highly scalable and resilient to adapt to ever growing business needs.</p>
                     <a href="#contact" className="btn btn-primary">
                         Let's Meet
                     </a>

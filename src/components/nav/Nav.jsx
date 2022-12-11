@@ -1,7 +1,7 @@
 import React from "react";
 import './nav.css'
 import {AiTwotoneHome, AiFillMessage} from "react-icons/ai"
-import {FaUserAstronaut, FaGraduationCap} from "react-icons/fa"
+import {FaUserAstronaut} from "react-icons/fa"
 import {GiLaptop, GiBookAura} from "react-icons/gi"
 import { useState } from "react";
 
@@ -18,9 +18,9 @@ const Nav = () => {
             <a href="#experience"
             onClick={() => setActiveNav('#experience')}
             className={activeNav === '#experience' ? 'active' : ''}><GiBookAura/> </a>
-            <a href="#portfolio"
+            {/*<a href="#portfolio"
             onClick={() => setActiveNav('#portfolio')}
-            className={activeNav === '#portfolio' ? 'active' : ''}><FaGraduationCap/> </a>
+    className={activeNav === '#portfolio' ? 'active' : ''}><FaGraduationCap/> </a>*/}
             <a href="#about"
             onClick={() => setActiveNav('#about')}
             className={activeNav === '#about' ? 'active' : ''}><FaUserAstronaut/> </a>

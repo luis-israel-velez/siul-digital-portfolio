@@ -9,7 +9,7 @@ import {SiKubernetes, SiInformatica} from 'react-icons/si'
 const Experience = () => {
     return(
         <section id="experience">
-            <h5>What I've done</h5>
+            <h5>Profesional</h5>
             <h2> Experience</h2>
 
             <div className="container experience__container">
@@ -23,7 +23,7 @@ const Experience = () => {
                             <div>
                                 <h4>Deploy Web Applications</h4>
                                 <ul className='text-light'>
-                                    <li>• Built multiple enterprise-level web applications on Azure Cloud Infrastructure & Kubernetes. These applications allowed users to self-onboard their Point-of-Sales data using pre-built conectors to obtain near realtime insights in the form of multiple dashboards.</li>
+                                    <li>• Built multiple enterprise-level web applications on Azure Cloud Infrastructure & Kubernetes. These applications allowed users to self-onboard their Point-of-Sales data using conectors to obtain near realtime insights in the form of multiple dashboards.</li>
                                     <li>• Deployed a supporting data platform eco-system composed of a delta lake on ADLS Gen 2  (capable of storing TB of data in multiple cleaning stages), data pipelines using Databrick (capable of processing and calculating value for our customers) and a orchestration layer.</li>
                                     <li>• Leveraged Infrastructure as Code to maximize speed of delivery for new features.</li>
                                 </ul>
@@ -34,7 +34,7 @@ const Experience = () => {
                             <div>
                                 <h4>Team Building</h4>
                                 <ul className='text-light'>
-                                    <li>• Hire & trained technology team (25+) from multiple disciplines (Architecture/Software/Devops/Quality/Data & UI/UX Engineers)</li>
+                                    <li>• Hire & trained technology team (25+) from multiple disciplines (Architecture/Software/Devops/Quality/Data & UI-UX Engineers)</li>
                                     <li>• Established engineering practices/protocols to ensure quick and efficient development. This included Agile and CI/CD on all of our repositories as well as code standards, checklists and SQA Automatic Testing.</li>
                                     <li>• Managed applications/teams cost working with other executives, built KPI and Executive Dashboards to track efforts across the teams.</li>
                                 </ul>
@@ -72,7 +72,7 @@ const Experience = () => {
                                 <h4>Data Platform</h4>
                                 <ul className='text-light'>
                                     <li>• Responsible for Data Platform dealing with over 300 TB, millions of transactions per day and spanning different Legacy and Cloud technology. </li>
-                                    <li>• Built/Managed multiple data solutions for different world wide stakeholders. These solutions were used by multiple CPG/Retailers and agencies. </li>
+                                    <li>• Built/Managed over (25+) data solutions for different world wide stakeholders. These solutions were used by multiple CPG/Retailers and agencies. </li>
                                 </ul>
                             </div>
                         </article>
@@ -81,7 +81,7 @@ const Experience = () => {
                             <div>
                                 <h4>Financials</h4>
                                 <ul className='text-light'>
-                                    <li>• Custodian of the technology budget allocated for data management. This included multi-million deals around technology licensing, resource management and support infrastructue.</li>
+                                    <li>• Custodian of the technology budget allocated for data management. This included multi-million dollar deals around technology licensing, resource management and support infrastructure.</li>
                                     <li>• Underwent multiple rounds of cost optimization including optimization of technology for better returns as well as negotiating with partners around better pricing.</li>
                                 </ul>
                             </div>
@@ -109,7 +109,7 @@ const Experience = () => {
                                 <h4>Customer Relationship</h4>
                                 <ul className='text-light'>
                                     <li>• Worked directly with multiple customers in the Telecomunication/Banking and Health industry. Gathered requirements, analyzed business needs and came up with data solutions that fit their challenges.</li>
-                                    <li>• Analyze business needs to generate data solutions that fit their needs. Solutions were built with Informatica and multiple RDBMs.</li>
+                                    <li>• Analyze business needs to generate data solutions that fit those specific challenges. Solutions were built with Informatica and multiple RDBMs.</li>
                                 </ul>
                             </div>
                         </article>

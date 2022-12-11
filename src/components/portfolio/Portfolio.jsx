@@ -27,7 +27,8 @@ const myData = [
 const Portfolio = () => {
     return(
         <section id="portfolio">
-            <h2>Past Experience</h2>
+            <h5>Projects</h5>
+            <h2>Portfolio</h2>
 
             <div className="container portfolio__container">
                 {
