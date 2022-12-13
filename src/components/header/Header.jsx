@@ -1,7 +1,7 @@
 import React from "react";
 import './header.css';
 import CTA from './CTA'
-import HEADSHOT from '../../assets/luis.jpeg'
+import HEADSHOT from '../../assets/luis.png'
 import HeaderSocial from "./HeaderSocial";
 
 const Header = () => {
@@ -15,7 +15,7 @@ const Header = () => {
                     Luis Velez
                 </h1>
                 <h5 className="text-light">
-                    CTO, Data Engineer (Geek)
+                    Chief Technology Officer/Engineer
                 </h5>
                 <CTA/>
                 <HeaderSocial/>

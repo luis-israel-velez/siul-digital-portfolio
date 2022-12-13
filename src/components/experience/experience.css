@@ -6,7 +6,7 @@
 }
 
 .experience__container > div {
-    background: var(--color-bg-variant);
+    background: var(--color-bg);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -15,8 +15,7 @@
 
 
 .experience__container > div:hover {
-    /*background: transparent; */
-    background: var(--color-bg);
+    background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
@@ -52,6 +51,9 @@
     color: var(--color-primary);
 }
 
+.experience__details > div:ul:li{
+    color: black;
+}
 
 /* ====================== Media Queries (Medium) ====================== */
 @media screen and (max-width: 1024px) {

@@ -12,9 +12,9 @@
 
 :root {
   --color-bg: #1E0E40;
-  --color-bg-variant: #150259;
-  --color-primary: #5ED7F2;
-  --color-primary-variant: #00F5A9;
+  --color-bg-variant: #4a1bc1;
+  --color-primary: #3cc9e8;
+  --color-primary-variant: #8cf8e8;
   --color-white: #fff;
   --color-light: rgba(255,255,255, 0.6);
 
@@ -35,22 +35,21 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: var(--color-bg);
+  background: #131316;
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-7.jpg);
+  background-image: url(../src/assets/bg-1.png);
 
+  
   /* Min Size for scrolling effect */
-  min-height: 500px;
+  /*min-height: 500px;*/
 
    /* Create the parallax scrolling effect */
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-
-
-
+   /*background-attachment: fixed;*/
+   /*background-position: center;*/
+   /*background-repeat: no-repeat;*/
+   /*background-size: cover;*/
+   
 }
 
 
@@ -85,6 +84,10 @@ section > h2 {
 
 .text-light {
   color: var(--color-light)
+}
+
+.text-light:hover {
+  color: var(--color-white)
 }
 
 a {

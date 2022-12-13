@@ -13,10 +13,12 @@
 }
 
 .skills:hover {
-    background: var(--color-bg);
+    background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
+    font-weight: bold;
 }
+
 
 .skills__head {
     background: var(--color-primary);
