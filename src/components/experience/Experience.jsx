@@ -8,7 +8,7 @@ import {SiKubernetes, SiInformatica} from 'react-icons/si'
 
 const Experience = () => {
     return(
-        <section id="experience">
+        <section id="experience" className="hidden">
             <h5>Profesional</h5>
             <h2> Experience</h2>
 

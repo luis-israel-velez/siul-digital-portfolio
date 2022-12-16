@@ -5,6 +5,7 @@ import HEADSHOT from '../../assets/luis.png'
 import HeaderSocial from "./HeaderSocial";
 
 const Header = () => {
+
     return(
         <header>
             <div className="container header__container">
@@ -21,7 +22,7 @@ const Header = () => {
                 <HeaderSocial/>
 
                 <div className="headshot">
-                    <img src={HEADSHOT} alt="headshot" />
+                    <img src={HEADSHOT} alt="headshot"/>
                 </div>
 
                 <a href="#contact" className='scroll__down'>Scroll Down</a>

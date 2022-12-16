@@ -7,9 +7,10 @@ import {SiApachekafka, SiDatabricks, SiSnowflake, SiMongodb, SiScala, SiMicrosof
         SiNodedotjs, SiElastic, SiMicrosoftazure, SiGooglecloud, SiReact, SiKubernetes, SiGithub, SiTerraform,
         SiAzuredevops} from 'react-icons/si'
 
+
 const Skills = () => {
     return(
-        <section id="skills">
+        <section id="skills" className="hidden">
             <h5>Tech</h5>
             <h2>Skills</h2>
 
@@ -154,7 +155,7 @@ const Skills = () => {
                         </li>
                     </ul>
                 </article>
-            </div>        
+            </div> 
         </section>
     )
 }

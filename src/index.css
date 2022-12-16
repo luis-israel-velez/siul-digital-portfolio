@@ -127,6 +127,23 @@ img {
   object-fit: cover;
 }
 
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+
+
+
 /* ====================== Media Queries ====================== */
 @media screen and (max-width: 1024px) {
   .container {
@@ -149,5 +166,11 @@ img {
 
   section > h2{
     margin-bottom: 2rem;
+  }
+}
+
+@media(prefers-reduced-motion) {
+  .hidden {
+    transition: none;
   }
 }

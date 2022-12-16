@@ -6,7 +6,7 @@ import {DiGoogleAnalytics} from "react-icons/di"
 
 const About = () => {
     return(
-        <section id="about">
+        <section id="about" className="hidden">
             <h5>More information</h5>
             <h2>About Me</h2>
 
