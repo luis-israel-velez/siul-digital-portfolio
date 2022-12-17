@@ -6,6 +6,8 @@ Followed tutorial: [React Portfolio Website] (https://www.youtube.com/watch?v=G-
 Installed additional NPM Packages: 
 npm install react-icons --save
 
+Remember to include .env if copying this in other 
+
 
 
 Useful Links 

@@ -8,13 +8,13 @@ import {SiKubernetes, SiInformatica} from 'react-icons/si'
 
 const Experience = () => {
     return(
-        <section id="experience" className="hidden">
+        <section id="experience">
             <h5>Profesional</h5>
             <h2> Experience</h2>
 
             <div className="container experience__container">
 
-                <div> 
+                <div className="hidden"> 
                     <h3>CustomerX.i - Chief Technology Officer</h3>
                     <h5>08/2021 - Current</h5>
                     <div className="experience__content">
@@ -52,7 +52,7 @@ const Experience = () => {
                         </article>
                     </div>
                 </div>
-                <div> 
+                <div className="hidden"> 
                     <h3> Catalina Marketing - Data Engineering Director</h3>
                     <h5>01/2015 - 07/2021</h5>
                     <div className="experience__content">
@@ -88,7 +88,7 @@ const Experience = () => {
                         </article>
                     </div>
                 </div>
-                <div> 
+                <div className="hidden"> 
                     <h3> Sofftek PR - ETL Informatica Consultant</h3>
                     <h5>06/2011 - 12/2014</h5>
                     <div className="experience__content">
@@ -115,7 +115,7 @@ const Experience = () => {
                         </article>
                     </div>
                 </div>
-                <div> 
+                <div className="hidden"> 
                     <h3> Hamilton Sundtrand - Software Engineer </h3>
                     <h5>05/2010 - 09/2010</h5>
                     <div className="experience__content">
