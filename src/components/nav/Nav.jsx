@@ -6,7 +6,7 @@ import {GiLaptop, GiBookAura} from "react-icons/gi"
 import { useState } from "react";
 
 const Nav = () => {
-    const [activeNav, setActiveNav] = useState('#')
+    const [activeNav, setActiveNav] = useState('/#')
     return(
         <nav>
             <a href="/#"
@@ -18,9 +18,6 @@ const Nav = () => {
             <a href="#experience"
             onClick={() => setActiveNav('#experience')}
             className={activeNav === '#experience' ? 'active' : ''}><GiBookAura/> </a>
-            {/*<a href="#portfolio"
-            onClick={() => setActiveNav('#portfolio')}
-    className={activeNav === '#portfolio' ? 'active' : ''}><FaGraduationCap/> </a>*/}
             <a href="#about"
             onClick={() => setActiveNav('#about')}
             className={activeNav === '#about' ? 'active' : ''}><FaUserAstronaut/> </a>
@@ -33,3 +30,7 @@ const Nav = () => {
 
 export default Nav
 
+
+/*<a href="#portfolio"
+            onClick={() => setActiveNav('#portfolio')}
+    className={activeNav === '#portfolio' ? 'active' : ''}><FaGraduationCap/> </a>*/
