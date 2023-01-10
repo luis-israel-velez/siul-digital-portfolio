@@ -61,7 +61,7 @@ const Experience = () => {
                             <div>
                                 <h4>Leadership</h4>
                                 <ul className='text-light'>
-                                    <li>• Lead Data Engineering teams (50+) from multiple disciplines (Architecture/ETL/DBA/Data/Quality/Devops). The teams included multiple world wide offices and stakeholders.</li>
+                                    <li>• Led Data Engineering teams (50+) from multiple disciplines (Architecture/ETL/DBA/Data/Quality/Devops). The teams included multiple world wide offices and stakeholders.</li>
                                     <li>• Executed commpany Legacy to Cloud migration strategy, achieving success in executing our existing suite of tools successfully.</li>
                                 </ul>
                             </div>
@@ -99,7 +99,7 @@ const Experience = () => {
                                 <ul className='text-light'>
                                     <li>• Responsible for maintenance and support of the Datawarehouse for one of the largest Health Care Company in Puerto Rico.</li>
                                     <li>• Designed and developed a orchestration application that was adopted company wide and used in all of our customers projects. The application used linux-scripts, XML based contracts, RDBM's system to store audit information and Informatica for execution.</li>
-                                    <li>• Lead multiple projects for different customers as either a Solutions Architect or in charge of training junior personal.</li>
+                                    <li>• Led multiple projects for different customers as either a Solutions Architect or in charge of training junior personal.</li>
                                 </ul>
                             </div>
                         </article>
